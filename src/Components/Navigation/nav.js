@@ -9,7 +9,7 @@ function Nav () {
           <nav className="App-link">Home</nav>
           <nav className="App-link">About</nav>
           <nav className="App-link">Works</nav>
-          <nav className="App-link">Contact</nav>
+          <nav className="App-link">Contact</nav>   
       </div>
     </div>
   );
