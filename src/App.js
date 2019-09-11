@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import "./App.css";
 import axios from 'axios';
 import Nav from "./Components/Navigation/nav";
@@ -7,10 +7,13 @@ import Header from "./Components/Header/Header"
 const nasaApi = 'https://lambda-github-api-server.herokuapp.com/';
 
 function App() {
+
+  const [headerState, setHeaderState] = useState({})
   useEffect(() =>{
     axios.get(nasaApi)
     .then((response) =>{
       console.log(response.data);
+      setHeaderState(response.data)
     })
     .catch((error) =>{
       console.log(error.message);
@@ -20,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Header/>
+      <Header props= {headerState}/>
     </div>
   );
 }
