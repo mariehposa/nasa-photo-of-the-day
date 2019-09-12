@@ -1,7 +1,8 @@
 import React from 'react';
 
-function Header ({props}) {
-    const {title, url, copyright} = props;
+function Header (props) {
+    const { title, url, copyright } = props.dataa;
+
     return (
       <div>
         <img className="image" src={url} alt="Header image"/>
