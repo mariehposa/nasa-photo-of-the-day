@@ -21,6 +21,11 @@ const Navigation = styled.div`
         nav{
             margin: 0 2rem;
             color: black;
+
+            &:hover{
+                color: blue;
+                transition: 0.5s ease-in-out;
+            }
         }
     }
 `
