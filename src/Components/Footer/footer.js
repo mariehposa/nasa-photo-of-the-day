@@ -1,6 +1,31 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const Footer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.5rem 3rem;
+
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        a{
+            width: 2rem;
+            color: white;
+            transition: all 0.3s;
+
+            &:hover{
+                transition: all 0.3s;
+                color: black;
+                background:gold;
+            }
+        }
+    }
+`
+
 function Footer () {
     return(
         <footer>
