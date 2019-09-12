@@ -10,8 +10,7 @@ const Header = styled.div`
   color: white;
   border-radius: .3rem;
   line-height: 1.5rem;
-  margin: 0 .6rem;
-  padding: 2rem 10rem;
+  padding: 2rem 8rem;
 
   p{
     color: gold;
