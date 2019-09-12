@@ -4,6 +4,7 @@ import axios from 'axios';
 import Nav from "./Components/Navigation/nav";
 import Header from "./Components/Header/Header";
 import Body from "./Components/Body/body";
+import Footer from "./Components/Footer/footer";
 
 const nasaApi = 'https://lambda-github-api-server.herokuapp.com/';
 
@@ -28,6 +29,7 @@ function App() {
         <Nav/>
         <Header props= {headerState}/>
         <Body props= {headerState}/>
+        <Footer/>
       </div>
     )
   : <div>  {/*else headerState run after getting the data from the api*/}
