@@ -21,7 +21,7 @@ function App() {
     })
   }, []);
 
-  return headerState //if the headerState is undefined, then...
+  return headerState //if the headerState is not undefined, then...
   ?
     (
       <div className="App">
