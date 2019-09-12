@@ -5,7 +5,7 @@ import Nav from "./Components/Navigation/nav";
 import Header from "./Components/Header/Header";
 import Body from "./Components/Body/body";
 
-const nasaApi = 'https://api.nasa.gov/api.html#apod';
+const nasaApi = 'https://lambda-github-api-server.herokuapp.com/';
 
 function App() {
 
@@ -24,7 +24,7 @@ function App() {
   return headerState //if the headerState is undefined, then...
   ?
     (
-      <div className="App">
+      <div className="App" style={{"textAlign":"center"}}>
         <Nav/>
         <Header props= {headerState}/>
         <Body props= {headerState}/>
