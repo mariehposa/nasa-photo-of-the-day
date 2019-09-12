@@ -2,6 +2,10 @@ import React from 'react';
 import nasa from './img/nasa.jpg';
 import styled from 'styled-components';
 
+const navigation = styled.div`
+    
+`
+
 function Nav () {
   return (
     <div className="navigation">
