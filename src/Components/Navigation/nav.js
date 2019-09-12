@@ -35,10 +35,10 @@ function Nav () {
     <Navigation>
       <img src={nasa} alt="nasa logo"/>
       <div>
-          <nav>Home</nav>
-          <nav>About</nav>
-          <nav>Works</nav>
-          <nav>Contact</nav>   
+          <nav href = "#">Home</nav>
+          <nav href = "#">About</nav>
+          <nav href = "#">Works</nav>
+          <nav href = "#">Contact</nav>   
       </div>
     </Navigation>
   );
