@@ -5,7 +5,7 @@ import Nav from "./Components/Navigation/nav";
 import Header from "./Components/Header/Header";
 import Body from "./Components/Body/body";
 
-const nasaApi = 'https://api.nasa.gov/planetary/apod?api_key=dUW2dEj9Yt0dy0rxtN5wrJ9bu8OWaLXuPwpVj6e1';
+const nasaApi = 'https://api.nasa.gov/api.html#apod';
 
 function App() {
 
