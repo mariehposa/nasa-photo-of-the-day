@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const 
+
 function Header (props) {
     const {title, url, copyright} = props.props
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import nasa from './img/nasa.jpg';
+import styled from 'styled-components';
 
 function Nav () {
   return (
