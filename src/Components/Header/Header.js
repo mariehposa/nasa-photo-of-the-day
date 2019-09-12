@@ -18,6 +18,9 @@ const All = styled.div`
 
 function Header ({props}) {
     const {title, url, copyright} = props;
+function Header (props) {
+    const { title, url, copyright } = props.dataa;
+
     return (
       <div>
         <Image src={url} alt="Header image"/>

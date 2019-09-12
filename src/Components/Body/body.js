@@ -26,7 +26,8 @@ const Header = styled.div`
 `
 
 function Body (props) {
-    const {explanation, date} = props.props
+    const {explanation, date} = props.dataa;
+
     return (
       <Header>
         <p>Description: <span>{explanation}</span></p>
